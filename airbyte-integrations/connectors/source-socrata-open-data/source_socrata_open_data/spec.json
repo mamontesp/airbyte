@@ -1,0 +1,24 @@
+{
+  "documentationUrl": "https://docs.airbyte.com/integrations/sources/source-socrata-open-data",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Source Socrata Open Data",
+    "type": "object",
+    "required": ["domain","example_code_path"],
+    "properties": {
+      "domain": {
+        "title": "Domain",
+        "type": "string",
+        "description": "URL of the government agency providing the dataset",
+        "examples":["www.datos.gov.co"]
+      },
+      "example_code_path": {
+        "title": "Example Code Path",
+        "type": "string",
+        "description": "Identifier code of dataset in the given URL that you want to test in the check connection action",
+        "pattern": "^[a-z0-9]{4}-[a-z0-9]{4}$",
+        "examples" : ["ceth-n4bn"]
+      }
+    }
+  }
+}

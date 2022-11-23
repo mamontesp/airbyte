@@ -1,0 +1,61 @@
+{
+  "streams": [
+    {
+      "stream": {
+        "name": "datos_gov_co_providers_group_secop",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "nombre_grupo": {
+              "type": "string"
+            },
+            "nit_grupo": {
+              "type": "string"
+            },
+            "tipo_empresa_grupo": {
+              "type": "string"
+            },
+            "ubicaci_n_grupo": {
+              "type": "string"
+            },
+            "fecha_creaci_n_grupo": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "nombre_participante": {
+              "type": "string"
+            },
+            "nit_participante": {
+              "type": "string"
+            },
+            "tipo_empresa_participante": {
+              "type": "string"
+            },
+            "ubicaci_n_participante": {
+              "type": "string"
+            },
+            "fecha_creaci_n_participante": {
+              "type": "string"
+            },
+            "participacion": {
+              "type": "string"
+            },
+            "es_lider_del_grupo": {
+              "type": "string"
+            },
+            "codigo_grupo": {
+             "type": "string"
+            },
+            "codigo_proveedor": {
+             "type": "string"
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    }
+  ]
+}

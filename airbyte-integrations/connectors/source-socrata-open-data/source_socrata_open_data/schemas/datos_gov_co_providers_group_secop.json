@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+      "nombre_grupo": {
+        "type": ["null", "string"]
+      },
+      "nit_grupo": {
+        "type": ["null", "string"]
+      },
+      "tipo_empresa_grupo": {
+        "type": ["null", "string"]
+      },
+      "ubicaci_n_grupo": {
+        "type": ["null", "string"]
+      },
+      "fecha_creaci_n_grupo": {
+        "type": ["null", "string"],
+        "format": "date-time"
+      },
+      "nombre_participante": {
+        "type": ["null", "string"]
+      },
+      "nit_participante": {
+        "type": ["null", "string"]
+      },
+      "tipo_empresa_participante": {
+        "type": ["null", "string"]
+      },
+      "ubicaci_n_participante": {
+        "type": ["null", "string"]
+      },
+      "fecha_creaci_n_participante": {
+        "type": ["null", "string"]
+      },
+      "participacion": {
+        "type": ["null", "string"]
+      },
+      "es_lider_del_grupo": {
+        "type": ["null", "string"]
+      },
+      "codigo_grupo": {
+       "type": ["null", "string"]
+      },
+      "codigo_proveedor": {
+       "type": ["null", "string"]
+      }
+  }
+}
